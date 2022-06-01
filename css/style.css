@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.wrapper {
+  background-color: black;
+}
+.box {
+  height: 200px;
+  background-color: grey;
+}
+.box-2 {
+  height: 50px;
+  background-color: grey;
+}
+.header {
+  padding: 24px 0;
+}
+.logo {
+  width: 300px;
+  height: 50px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.nav ul {
+  list-style: none;
+}
+.nav li {
+  margin: 0 24px;
+}
+.nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav li a:hover {
+  opacity: 0.8;
+}
+.banner {
+  height: 500px;
+  background: url("../img12/poster.jpg");
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+}
+.content-banner {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.content-banner p {
+  margin-bottom: 40px;
+}
+.btn {
+  padding: 8px 32px;
+  text-decoration: none;
+  color: black;
+  background-color: aqua;
+}
+.body {
+  text-align: center;
+  padding: 60px 0 60px;
+  font-size: 32px;
+  font-weight: bold;
+}
+.card {
+  width: 100%S;
+  /* margin: 50px 0 0 250px; */
+  overflow: hidden;
+  /* box-shadow: 5px 5px 20px #A7A7A7; */
+  background-color: rgb(234, 234, 234);
+}
+.content {
+  padding: 40px 20px 40px;
+  background-color: #6cbe45;
+  text-align: center;
+  height: 310px;
+}
+.content h2 {
+  margin-bottom: 20px;
+}
+.content p {
+  margin-top: 6px;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+.content span {
+  font-size: 16px;
+}
+.business {
+  overflow: hidden;
+  height: 500px;
+}
+.business img {
+  height: 100%;
+}
+.about-us h2 {
+  font-size: 25px;
+  line-height: 47px;
+  margin-bottom: 8px;
+}
+.about-us ul {
+  margin: 30px 0;
+  padding-left: 17px;
+  font-size: 20px;
+}
+.about-us p {
+  font-size: 20px;
+}
+.about-us a {
+  padding: 15px 40px;
+  background-color: #6cbe45;
+  text-decoration: none;
+  color: white;
+}
+.footer {
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 22px 0;
+  background-color: rgb(60, 60, 60);
+  color: white;
+  text-align: center;
+}
+
+.feature {
+  height: 288px;
+  width: 100%;
+}
+
+.feature img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.business img {
+  width: 100%;
+}
+
+.business-background {
+  background-color: #452d7c;
+}
+
+.section-header {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-header-container {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #452d7c;
+  border-radius: 50%;
+  background-color: #452d7c;
+}
+
+.button-see {
+  margin-top: 20px;
+}
